@@ -1,0 +1,119 @@
+<!-- Home Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Makerspace</title>
+</head>
+<body>
+    <!-- Navigation Bar, Mobile has drop down menu -->
+    <div class="nav-bar">
+        <a class="logo" href="index.html"><img href="index" src="img/header.png" class="logo-pic" /></a>
+        <img class="menu" id="menu" src="img/menu.png" />
+        <div class="nav-menu">
+            <a href="about.html" class="link">About</a>
+            <a href="map.html" class="link">Map</a>
+            <a href="gallery.html" class="link">Project Gallery</a>
+            <a href="faq.html" class="link">FAQ</a>
+            <a href="contact.html" class="link">Contact</a>
+            <a href="" class="maker">Become a Maker</a>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <!-- Background -->
+        <img class="gallery-bg shadow" src="img/wood-bg.jpg" />
+
+        <!-- Navigation -->
+        <div class=" gallery-nav">
+            <img id="0" class="gallery-button" src="img/black-logo.png" onclick="setImage(0)" />
+            <img id="1" class="gallery-button" src="img/gallery-button.png" onclick="setImage(1)" />
+            <img id="2" class="gallery-button" src="img/gallery-button.png" onclick="setImage(2)" />
+            <img id="3" class="gallery-button" src="img/gallery-button.png" onclick="setImage(3)" />
+        </div>
+
+        <!-- Image -->
+        <img id="gallery-img" class="gallery-img" src="img/gallery/1.png" />
+    </div>
+
+    <h1 class="where"> Where <span style="color: #00ADD3; font-weight: bold;"> Creativity </span></h1>
+    <div class="bg">
+        <h1 style="color: white;" class="sparks"> Sparks <span style="color: #FF9E45; font-weight: bold;">
+                Innovation.
+            </span></h1>
+
+        <!-- Makerspace Livestream -->
+        <img src="img/test.png" class="platform" />
+        <iframe class="video shadow" src="https://www.youtube.com/embed/m_QhY1aABsE?autoplay=1&mute=1">
+        </iframe>
+
+        <!-- Signup Navigation -->
+        <h2>First time here?</h2>
+        <p class="orange">Sign up for orientation using the link below!</p>
+        <div onclick="location.href='https://www.w3schools.com/css/css_align.asp';" class="signup-button shadow">
+            Orientation
+            Signup</div>
+
+        <h2>Previously attended orientation?</h2>
+        <p class="orange">Check out our current offerings below!</p>
+
+
+        <!-- Course Catalog -->
+        <div class="course-main">
+            <div class="course-sub">
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+            </div>
+
+            <div class="course-sub">
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+            </div>
+
+            <div class="course-sub">
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+            </div>
+
+            <div class="desktop-course-sub">
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+            </div>
+            <div class="desktop-course-sub">
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+                <img class="card" src="img/cards/3dprinting.png" />
+            </div>
+        </div>
+
+        <p class="orange disclaimer">Orientation
+            and courses are
+            limited to Yazaki
+            employees</p>
+    </div>
+    </div>
+
+    <!-- Questions or Concerns -->
+    <p class="questions"> Questions or Concerns?</p>
+    <p class="visit">
+        Visit our
+        <a style="font-weight: 400; text-decoration: underline; color: black;" href="faq.html">FAQ page</a>
+        and
+        <a style="font-weight: 400; text-decoration: underline; color: black" href="contact.html">Contact page</a> for
+        assistance.
+    </p>
+
+    <div class="footer">
+        <div>
+            <p class="footer-text"> Copyright © 2024 Yazaki </p>
+        </div>
+        <p class="footer-text"> Created by Brendan Lee </p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
