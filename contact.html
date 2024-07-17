@@ -7,7 +7,39 @@
     <title>header</title>
 </head>
 <body>
+    <!-- Navigation Bar, Mobile has drop down menu -->
+    <div class="nav-bar">
+        <a class="logo" href="index.html"><img href="index" src="img/header.png" class="logo-pic" /></a>
+        <img class="menu" id="menu" src="img/menu.png" />
+        <div class="nav-menu">
+            <a href="about.html" class="link">About</a>
+            <a href="map.html" class="link">Map</a>
+            <a href="gallery.html" class="link">Project Gallery</a>
+            <a href="faq.html" class="link">FAQ</a>
+            <a href="contact.html" class="link">Contact</a>
+            <a href="" class="maker">Become a Maker</a>
+        </div>
+    </div>
     <p>contact</p>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="a7b41f7a-6c57-4ae8-85b0-85544633e741">
+
+        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <input type="text" name="name" placeholder="name" required>
+        <input type="email" name="email" placeholder="email" required>
+        <textarea name="message" placeholder="message" required></textarea>
+
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <!-- Custom Confirmation / Success Page -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+        <button type="submit">Submit Form</button>
+
+    </form>
     <script src="js/.js"></script>
 </body>
 </html>

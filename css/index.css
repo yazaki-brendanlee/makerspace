@@ -1,422 +1,399 @@
 /* Mobile */
 * {
-    font-family: 'National Park';
-    /* border-style: solid;
+  font-family: "National Park";
+  /* border-style: solid;
     border-width: .3px; */
-    animation: fadeIn 1s;
-    font-weight: 400;
+  animation: fadeIn 1s;
+  font-weight: 400;
 }
 
 body {
-    margin: 0;
-    overflow: auto;
+  margin: 0;
+  overflow: auto;
 }
 
 .shadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 .nav-menu {
-    display: none;
-
+  display: none;
 }
 .nav-bar {
-    width: 100%;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
-    width: 60%;
-    margin: 5%;
+  width: 60%;
+  margin: 5%;
 }
+
 .logo-pic {
-    width: 100%;
+  width: 100%;
 }
+
 .menu {
-    width: 4%;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 2px;
-    align-self: center;
-    margin: 5%;
-    margin-left: 10%;
+  width: 4%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  align-self: center;
+  margin: 5%;
+  margin-left: 10%;
 }
 
 .menu:hover {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .gallery {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-    height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  height: 250px;
 }
 
 .gallery-bg {
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    margin-top: 8%;
-    margin-left: 10%;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin-top: 8%;
+  margin-left: 10%;
 }
 
 .gallery-button {
-    margin-top: 20%;
-    margin-bottom: 20%;
+  position: absolute;
+  margin-top: 5%;
+  width: 100%;
 }
 
 .gallery-nav {
-    position: absolute;
-    width: 2.5%;
-    margin-top: 28%;
-    margin-left: 80%;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  width: 2.5%;
+  margin-top: 28%;
+  margin-left: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
 .gallery-img {
-    position: absolute;
-    width: 80%;
-    margin-right: 10%;
-    background-size: cover;
-    height: 80%;
+  position: absolute;
+  width: 80%;
+  margin-right: 10%;
+  background-size: cover;
+  height: 80%;
 }
 
 .bg {
-    background-color: #405D6D;
+  background-color: #405d6d;
+}
+
+.livestream {
+  position: relative;
 }
 
 .video {
-    position: absolute;
-    width: 30%;
-    right: 0;
-    top: 0;
-    margin-top: 90%;
-    margin-right: 9%;
-    aspect-ratio: 16/9;
+  position: absolute;
+  width: 30%;
+  right: 0;
+  margin-right: 9%;
+  top: 0;
+  margin-top: -8%;
+  aspect-ratio: 16/9;
 }
 
 .platform {
-    position: absolute;
-    width: 50%;
-    right: 0;
-    top: 0;
-    margin-top: 92%;
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  margin-top: -5%;
 }
 
-.where {    
-    padding-top: 3%;
+.where {
+  padding-top: 3%;
 }
 
 h1 {
-    font-size: 100%;
-    margin-left: 3%;
+  font-size: 100%;
+  margin-left: 3%;
 }
 
 .sparks {
-    padding-top: 3%;
-    margin-left: 10%;
+  padding-top: 3%;
+  margin-left: 10%;
 }
 
 h2 {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20%;
-    font-size: 110%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 110%;
 }
 
 .orange {
-    color: #FF9E45;
-    font-weight: bold;
-    text-align: center;
-    font-size: 70%;
+  color: #ff9e45;
+  font-weight: bold;
+  text-align: center;
+  font-size: 70%;
 }
 
 .signup-button {
-    background-color: white;
-    color: #405D6D;
-    border-radius: 5px;
-    width: 30%;
-    font-size: 40%;
-    text-align: center;
-    height: 25px;
-    line-height: 25px;
-    margin: auto;
-    font-weight: bold;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: white;
+  color: #405d6d;
+  border-radius: 5px;
+  width: 30%;
+  font-size: 40%;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  margin: auto;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .signup-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .course-main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .course-sub {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
 }
 
 .desktop-course-sub {
-    display: none;
+  display: none;
 }
 
 .card {
-    width: 30%;
+  width: 30%;
 }
 
 .questions {
-    text-align: center;
-    font-size: 60%;
-    font-weight: bold;
-    margin-top: 5%;
+  text-align: center;
+  font-size: 60%;
+  font-weight: bold;
+  margin-top: 5%;
 }
 
 .visit {
-    text-align: center;
-    font-size: 50%;
-    margin-top: 2%;
-    font-weight: 400;
+  text-align: center;
+  font-size: 50%;
+  margin-top: 2%;
+  font-weight: 400;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .disclaimer {
-    font-size: 50%;
-    font-weight: bold;
-    padding: 5%;
+  font-size: 50%;
+  font-weight: bold;
+  padding: 5%;
 }
 
 .footer-text {
-    font-size: 30%;
+  font-size: 30%;
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
-    .gallery {
-        height: 450px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .gallery {
+    height: 450px;
+  }
 
-    h1 {
-        font-size: 175%;
-        margin-left: 10%;
-    }
+  h1 {
+    font-size: 175%;
+    margin-left: 10%;
+  }
 
-    .sparks {
-        margin-left: 15%;
-        padding-top: 4%;
-    }
-    .where {
-        padding-bottom: 2%;
-    }
+  .sparks {
+    margin-left: 15%;
+    padding-top: 4%;
+  }
+  .where {
+    padding-bottom: 2%;
+  }
 
-    h2 {
-        margin-top: 15%;
-        font-size: 200%;
-    }
-    
-    .orange {
-        font-size: 140%;
-    }
+  h2 {
+    margin-top: 15%;
+    font-size: 200%;
+  }
 
-    .signup-button {
-        width: 40%;
-        font-size: 80%;
-        height: 50px;
-        line-height: 50px;
-    }
-    .disclaimer {
-        font-size: 100%;
-    }
+  .orange {
+    font-size: 140%;
+  }
 
-    .questions {
-        font-size: 120%;
-        margin-top: 3%;
-    }
+  .signup-button {
+    width: 40%;
+    font-size: 80%;
+    height: 50px;
+    line-height: 50px;
+  }
+  .disclaimer {
+    font-size: 100%;
+  }
 
-    .visit {
-        text-align: center;
-        font-size: 100%;
-        margin-top: 2%;
-        font-weight: 400;
-    }
+  .questions {
+    font-size: 120%;
+    margin-top: 3%;
+  }
 
-    .footer-text {
-        font-size: 80%;
-    }
+  .visit {
+    text-align: center;
+    font-size: 100%;
+    margin-top: 2%;
+    font-weight: 400;
+  }
 
-    h1 {
-        padding-top: 4%;
-    }
+  .footer-text {
+    font-size: 80%;
+  }
 
-    .where {
-        padding-top: 2%;
-    }
+  h1 {
+    padding-top: 4%;
+  }
 
-    .video {
-        width: 35%;
-        right: 0;
-        top: 0;
-        margin-top: 84%;
-        margin-right: 10%;
-        aspect-ratio: 16/9;
-    }
-
-    .platform {
-        width: 55%;
-        right: 0;
-        top: 0;
-        margin-top: 87%;
-    }
+  .where {
+    padding-top: 2%;
+  }
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) { 
-    .menu {
-        width: 0%;
-        border-width: 0px;
-        border-radius: 0px;
-        margin: 0%;
-        margin-left: 0%;
-    }
-    .logo {
-        width: 30%;
-        height: auto;
-        margin: 1%;
+@media screen and (min-width: 1024px) {
+  .menu {
+    width: 0%;
+    border-width: 0px;
+    border-radius: 0px;
+    margin: 0%;
+    margin-left: 0%;
+  }
+  .logo {
+    width: 30%;
+    height: auto;
+    margin: 1%;
+  }
+  .gallery {
+    justify-content: center;
+    height: 600px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-menu {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 2%;
+  }
 
-    }
-    .gallery {
-        justify-content: center;
-        height: 600px;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .nav-menu {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .link {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        padding: 2%;
-    }
+  .link:hover {
+    text-decoration: underline;
+  }
 
-    .link:hover {
-        text-decoration: underline;
-    }
+  .maker {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 100%;
+  }
 
-    .maker {
-        color: white;
-        font-weight: bold;
-        background-color: black;
-        border-radius: 5px;
-        text-decoration: none;
-        padding: 2%;
-        font-size: 100%;
-    }
+  .maker:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  }
 
-    .maker:hover {
-        transform: translateY(-2px);
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
-    }
+  h1 {
+    font-size: 250%;
+    margin-left: 20%;
+  }
 
-    h1 {
-        font-size: 250%;
-        margin-left: 20%;
-    }
+  .sparks {
+    margin-left: 25%;
+  }
 
-    .sparks {
-        margin-left: 25%;
-    }
+  h2 {
+    margin-top: 15%;
+    font-size: 250%;
+  }
+  .orange {
+    font-size: 150%;
+  }
 
-    .platform {
-        width: 40%;
-        top: 0;
-        margin-top: 49%;
-        margin-right: 15%;
-    }
+  .signup-button {
+    font-size: 100%;
+    height: 60px;
+    line-height: 60px;
+    width: 20%;
+  }
 
-    .video {
-        width: 25%;
-        margin-top: 46%;
-        margin-right: 22.5%;
-    }
-    h2 {
-        margin-top: 15%;
-        font-size: 250%;
-    }
-    .orange {
-        font-size: 150%;
-    }
+  .card {
+    width: 15%;
+  }
 
-    .signup-button {
-        font-size: 100%;
-        height: 60px;
-        line-height: 60px;
-        width: 20%;
-    }
+  .questions {
+    font-size: 175%;
+  }
 
-    .card {
-        width: 15%;
-    }
+  .visit {
+    font-size: 140%;
+  }
 
-    .questions {
-        font-size: 175%;
-    }
+  .footer-text {
+    font-size: 120%;
+  }
 
-    .visit {
-        font-size: 140%;
-    }
+  .course-sub {
+    display: none;
+  }
 
-    .footer-text {
-        font-size: 120%;
-    }
-
-    .course-sub {
-        display: none;
-    }
-
-    .desktop-course-sub {
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        justify-content: space-evenly;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-    }
+  .desktop-course-sub {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
 }
