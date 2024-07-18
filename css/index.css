@@ -2,7 +2,7 @@
 * {
   font-family: "National Park";
   /* border-style: solid;
-    border-width: .3px; */
+  border-width: 0.3px; */
   animation: fadeIn 1s;
   font-weight: 400;
 }
@@ -112,7 +112,7 @@ body {
   position: absolute;
   width: 30%;
   right: 0;
-  margin-right: 9%;
+  margin-right: 11%;
   top: 0;
   margin-top: -8%;
   aspect-ratio: 16/9;
@@ -122,7 +122,7 @@ body {
   position: absolute;
   width: 50%;
   right: 0;
-  margin-right: -1%;
+  margin-right: 1%;
   top: 0;
   margin-top: -10.5%;
 }
