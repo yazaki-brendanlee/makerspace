@@ -1,7 +1,7 @@
 * {
   font-family: "National Park";
   /* border-style: solid;
-    border-width: .3px; */
+  border-width: 0.3px; */
   animation: fadeIn 1s;
   font-weight: 400;
 }
@@ -45,6 +45,11 @@ body {
 
 .menu:hover {
   background-color: lightgrey;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Tablet */
@@ -103,5 +108,63 @@ body {
   .maker:hover {
     transform: translateY(-2px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  }
+
+  h1 {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    margin-top: 3%;
+    font-size: 125%;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+
+  textarea {
+    width: 90%;
+    margin-top: 3%;
+    font-size: 125%;
+    padding: 3%;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+
+  button {
+    width: 80%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    padding: 3%;
+    border-radius: 20px;
+    font-size: 100%;
+    font-weight: bold;
+  }
+  p {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-size: 110%;
   }
 }
